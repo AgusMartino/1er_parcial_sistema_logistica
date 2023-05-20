@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="parcial_sapModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Detalle_de_transaccion">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="Int32" Nullable="false" />
+    <Property Name="id_transaccion" Type="Int32" />
+    <Property Name="id_producto" Type="Int32" />
+    <Property Name="Cantidad" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="inventario">
+    <Key>
+      <PropertyRef Name="id_inventario" />
+    </Key>
+    <Property Name="id_inventario" Type="Int32" Nullable="false" />
+    <Property Name="id_producto" Type="Int32" />
+    <Property Name="id_sucursal" Type="Int32" />
+    <Property Name="Cantidad" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Precio" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="sucursal">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Provincia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Localidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tipo_de_sucursal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tipo_sucursal">
+    <Key>
+      <PropertyRef Name="id_tipo_sucursal" />
+    </Key>
+    <Property Name="id_tipo_sucursal" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="transaccion">
+    <Key>
+      <PropertyRef Name="id_transaccion" />
+    </Key>
+    <Property Name="id_transaccion" Type="Int32" Nullable="false" />
+    <Property Name="id_origen" Type="Int32" />
+    <Property Name="id_destino" Type="Int32" />
+    <Property Name="id_usuario" Type="Int32" />
+    <Property Name="Fecha_de_transaccion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" />
+    <Property Name="usuario1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="parcial_sapEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Detalle_de_transaccion" EntityType="Self.Detalle_de_transaccion" />
+    <EntitySet Name="inventario" EntityType="Self.inventario" />
+    <EntitySet Name="producto" EntityType="Self.producto" />
+    <EntitySet Name="sucursal" EntityType="Self.sucursal" />
+    <EntitySet Name="tipo_sucursal" EntityType="Self.tipo_sucursal" />
+    <EntitySet Name="transaccion" EntityType="Self.transaccion" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+  </EntityContainer>
+</Schema>

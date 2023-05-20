@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="parcial_sapModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Detalle_de_transaccion">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="int" Nullable="false" />
+    <Property Name="id_transaccion" Type="int" />
+    <Property Name="id_producto" Type="int" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="inventario">
+    <Key>
+      <PropertyRef Name="id_inventario" />
+    </Key>
+    <Property Name="id_inventario" Type="int" Nullable="false" />
+    <Property Name="id_producto" Type="int" />
+    <Property Name="id_sucursal" Type="int" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="sucursal">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Provincia" Type="varchar" MaxLength="50" />
+    <Property Name="Localidad" Type="varchar" MaxLength="50" />
+    <Property Name="tipo_de_sucursal" Type="int" />
+  </EntityType>
+  <EntityType Name="tipo_sucursal">
+    <Key>
+      <PropertyRef Name="id_tipo_sucursal" />
+    </Key>
+    <Property Name="id_tipo_sucursal" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="transaccion">
+    <Key>
+      <PropertyRef Name="id_transaccion" />
+    </Key>
+    <Property Name="id_transaccion" Type="int" Nullable="false" />
+    <Property Name="id_origen" Type="int" />
+    <Property Name="id_destino" Type="int" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="Fecha_de_transaccion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="50" />
+    <Property Name="contraseña" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="parcial_sapModelStoreContainer">
+    <EntitySet Name="Detalle_de_transaccion" EntityType="Self.Detalle_de_transaccion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="inventario" EntityType="Self.inventario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sucursal" EntityType="Self.sucursal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tipo_sucursal" EntityType="Self.tipo_sucursal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="transaccion" EntityType="Self.transaccion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

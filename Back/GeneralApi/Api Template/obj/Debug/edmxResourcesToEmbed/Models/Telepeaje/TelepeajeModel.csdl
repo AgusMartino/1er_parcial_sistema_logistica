@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TELEPEAJEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TELEPEAJEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Estadoes" EntityType="TELEPEAJEModel.Estado" />
+    <EntitySet Name="Estado_Servicios" EntityType="TELEPEAJEModel.Estado_Servicios" />
+    <EntitySet Name="Patentes" EntityType="TELEPEAJEModel.Patente" />
+    <EntitySet Name="Tipo_Vehiculo" EntityType="TELEPEAJEModel.Tipo_Vehiculo" />
+    <EntitySet Name="Transacciones" EntityType="TELEPEAJEModel.Transaccione" />
+    <AssociationSet Name="FK_Transacciones_Estado" Association="TELEPEAJEModel.FK_Transacciones_Estado">
+      <End Role="Estado" EntitySet="Estadoes" />
+      <End Role="Transaccione" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Patente_Tipo_Vehiculo" Association="TELEPEAJEModel.FK_Patente_Tipo_Vehiculo">
+      <End Role="Tipo_Vehiculo" EntitySet="Tipo_Vehiculo" />
+      <End Role="Patente" EntitySet="Patentes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transacciones_Patente" Association="TELEPEAJEModel.FK_Transacciones_Patente">
+      <End Role="Patente" EntitySet="Patentes" />
+      <End Role="Transaccione" EntitySet="Transacciones" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="ID_Estado" />
+    </Key>
+    <Property Name="ID_Estado" Type="Guid" Nullable="false" />
+    <Property Name="Estado1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Transacciones" Relationship="TELEPEAJEModel.FK_Transacciones_Estado" FromRole="Estado" ToRole="Transaccione" />
+  </EntityType>
+  <EntityType Name="Estado_Servicios">
+    <Key>
+      <PropertyRef Name="Nombre_Microservicio" />
+    </Key>
+    <Property Name="Nombre_Microservicio" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Patente">
+    <Key>
+      <PropertyRef Name="ID_Patente" />
+    </Key>
+    <Property Name="ID_Patente" Type="Guid" Nullable="false" />
+    <Property Name="ID_Tipo_Vehiculo" Type="Guid" Nullable="false" />
+    <Property Name="Patente1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telepeaje" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Tipo_Vehiculo" Relationship="TELEPEAJEModel.FK_Patente_Tipo_Vehiculo" FromRole="Patente" ToRole="Tipo_Vehiculo" />
+    <NavigationProperty Name="Transacciones" Relationship="TELEPEAJEModel.FK_Transacciones_Patente" FromRole="Patente" ToRole="Transaccione" />
+  </EntityType>
+  <EntityType Name="Tipo_Vehiculo">
+    <Key>
+      <PropertyRef Name="ID_Tipo_Vehiculo" />
+    </Key>
+    <Property Name="ID_Tipo_Vehiculo" Type="Guid" Nullable="false" />
+    <Property Name="Tipo_Vehiculo1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Precio" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Patentes" Relationship="TELEPEAJEModel.FK_Patente_Tipo_Vehiculo" FromRole="Tipo_Vehiculo" ToRole="Patente" />
+  </EntityType>
+  <EntityType Name="Transaccione">
+    <Key>
+      <PropertyRef Name="ID_Transacciones" />
+    </Key>
+    <Property Name="ID_Transacciones" Type="Guid" Nullable="false" />
+    <Property Name="ID_Patente" Type="Guid" Nullable="false" />
+    <Property Name="ID_Estado" Type="Guid" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Precio" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Estado" Relationship="TELEPEAJEModel.FK_Transacciones_Estado" FromRole="Transaccione" ToRole="Estado" />
+    <NavigationProperty Name="Patente" Relationship="TELEPEAJEModel.FK_Transacciones_Patente" FromRole="Transaccione" ToRole="Patente" />
+  </EntityType>
+  <Association Name="FK_Transacciones_Estado">
+    <End Type="TELEPEAJEModel.Estado" Role="Estado" Multiplicity="1" />
+    <End Type="TELEPEAJEModel.Transaccione" Role="Transaccione" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="ID_Estado" />
+      </Principal>
+      <Dependent Role="Transaccione">
+        <PropertyRef Name="ID_Estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Patente_Tipo_Vehiculo">
+    <End Type="TELEPEAJEModel.Tipo_Vehiculo" Role="Tipo_Vehiculo" Multiplicity="1" />
+    <End Type="TELEPEAJEModel.Patente" Role="Patente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Vehiculo">
+        <PropertyRef Name="ID_Tipo_Vehiculo" />
+      </Principal>
+      <Dependent Role="Patente">
+        <PropertyRef Name="ID_Tipo_Vehiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transacciones_Patente">
+    <End Type="TELEPEAJEModel.Patente" Role="Patente" Multiplicity="1" />
+    <End Type="TELEPEAJEModel.Transaccione" Role="Transaccione" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patente">
+        <PropertyRef Name="ID_Patente" />
+      </Principal>
+      <Dependent Role="Transaccione">
+        <PropertyRef Name="ID_Patente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
