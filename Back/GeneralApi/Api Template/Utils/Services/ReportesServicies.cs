@@ -71,21 +71,6 @@ namespace GeneralApi.Utils.Services
             }
 
         }
-        /*
-        public IEnumerable<ReporteOperaciones> GetOperacionesConMasTresDia(DateTime dateTime)
-        {
-            try
-            {
-                IEnumerable<ReporteOperaciones> operaciones = new List<ReporteOperaciones>();
-                operaciones = ReportesManager.Current.GetOperacionesConMasTresDia(dateTime);
-                return operaciones;
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }*/
     }
 
 }

@@ -1,0 +1,480 @@
+﻿++Solución "GeneralApi" ‎(1 de 1 proyecto)
+i:{00000000-0000-0000-0000-000000000000}:GeneralApi.sln
+++GeneralApi
+i:{00000000-0000-0000-0000-000000000000}:GeneralApi
+++Properties
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\properties\
+++AssemblyInfo.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\properties\assemblyinfo.cs
+++Referencias
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++App_Data
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_data\
+++App_Start
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\app_start\
+++BundleConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\filterconfig.cs
+++RouteConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\routeconfig.cs
+++SwaggerConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\swaggerconfig.cs
+++WebApiConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\app_start\webapiconfig.cs
+++Areas
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\
+++HelpPage
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\
+++Attributes
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\attributes\
+++Content
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\
+++bootstrap-theme.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap.css
+++bootstrap.css.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap.css.map
+++bootstrap.min.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\bootstrap.min.css.map
+++Site.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\content\site.css
+++Contracts
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\contracts\
+++IGenericCRUD.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\contracts\igenericcrud.cs
+++Controllers
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\controllers\
+++HomeController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\homecontroller.cs
+++ReportesController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\reportescontroller.cs
+++SucursalController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\sucursalcontroller.cs
+++TesteoController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\testeocontroller.cs
+++UsuarioController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\controllers\usuariocontroller.cs
+++Entities
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\
+++Enums
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\enums\
+++Exceptions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\exceptions\
+++GetOperacionesFiltroFecha.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\getoperacionesfiltrofecha.cs
+++ReporteOperaciones.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\reporteoperaciones.cs
+++fonts
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\
+++Models
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\models\
+++Scripts
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\
+++Utils
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\
+++Managers
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\
+++InventarioManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\inventariomanager.cs
+++ProductoManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\productomanager.cs
+++ReportesManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\reportesmanager.cs
+++SucursalesManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\sucursalesmanager.cs
+++TransaccionesManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\transaccionesmanager.cs
+++UsuarioManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\managers\usuariomanager.cs
+++Services
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\services\
+++ReportesServicies.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\services\reportesservicies.cs
+++SucursalService.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\services\sucursalservice.cs
+++UsuarioServices.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\services\usuarioservices.cs
+++CryptographyService.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\cryptographyservice.cs
+++EnumHelper.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\enumhelper.cs
+++SerializationService.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\serializationservice.cs
+++SqlHelper.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\sqlhelper.cs
+++TesteoManager.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\utils\testeomanager.cs
+++Views
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\
+++Home
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\home\
+++Index.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\home\index.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\index.cshtml
+++Shared
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\shared\
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\shared\
+++Transito
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\transito\
+++_ViewStart.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\_viewstart.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\_viewstart.cshtml
+++Web.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\web.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\web.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\web.config
+++favicon.ico
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\favicon.ico
+++Global.asax
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\global.asax
+++packages.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\packages.config
+++Antlr3.Runtime
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++EntityFramework
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++EntityFramework.SqlServer
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Authorization
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Hosting.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Hosting.Server.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Http
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Http.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Http.Extensions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Http.Features
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.JsonPatch
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Mvc.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Mvc.Core
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Mvc.Formatters.Json
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Routing
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.Routing.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.AspNetCore.WebUtilities
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.CSharp
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.DotNet.InternalAbstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.Configuration.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.DependencyInjection.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.DependencyModel
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.FileProviders.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.Logging.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.ObjectPool
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.Options
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.PlatformAbstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Extensions.Primitives
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Net.Http.Headers
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Microsoft.Web.Infrastructure
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Newtonsoft.Json
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++Swashbuckle.Core
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Buffers
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Collections.NonGeneric
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.ComponentModel.Composition
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.ComponentModel.DataAnnotations
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.ComponentModel.Primitives
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.ComponentModel.TypeConverter
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Configuration
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Core
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Data
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Data.DataSetExtensions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Diagnostics.DiagnosticSource
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Drawing
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.IO
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Linq
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Linq.Expressions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Net.Http
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Net.Http.Formatting
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Net.Http.WebRequest
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Reflection
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Runtime
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Runtime.Extensions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Runtime.InteropServices
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Runtime.Serialization
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Runtime.Serialization.Primitives
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Security
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Text.Encodings.Web
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Abstractions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.ApplicationServices
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Cors
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Entity
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Helpers
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Http
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Http.Cors
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Http.WebHost
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Mvc
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Optimization
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Razor
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.Routing
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.WebPages
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.WebPages.Deployment
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Web.WebPages.Razor
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Xml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++System.Xml.Linq
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++WebActivatorEx
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++WebGrease
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:
+++ModelDescriptions
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\
+++SampleGeneration
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\
+++ApiDescriptionExtensions.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\apidescriptionextensions.cs
+++HelpPage.css
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\helppage.css
+++HelpPageAreaRegistration.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\helppagearearegistration.cs
+++HelpPageConfigurationExtensions.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\helppageconfigurationextensions.cs
+++XmlDocumentationProvider.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\xmldocumentationprovider.cs
+++CommonEnums.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\enums\commonenums.cs
+++AlreadyExistsException.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\exceptions\alreadyexistsexception.cs
+++NotFoundException.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\entities\exceptions\notfoundexception.cs
+++glyphicons-halflings-regular.eot
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\fonts\glyphicons-halflings-regular.woff2
+++Parcial
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\
+++bootstrap.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\bootstrap.js
+++bootstrap.min.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\bootstrap.min.js
+++jquery-3.4.1.intellisense.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.intellisense.js
+++jquery-3.4.1.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.js
+++jquery-3.4.1.min.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.min.js
+++jquery-3.4.1.min.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.min.map
+++jquery-3.4.1.slim.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.slim.js
+++jquery-3.4.1.slim.min.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.slim.min.js
+++jquery-3.4.1.slim.min.map
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\jquery-3.4.1.slim.min.map
+++modernizr-2.8.3.js
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\scripts\modernizr-2.8.3.js
+++_Layout.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\shared\_layout.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\shared\_layout.cshtml
+++Error.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\views\shared\error.cshtml
+++Global.asax.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\global.asax.cs
+++Web.Debug.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\web.debug.config
+++Web.Release.config
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\web.release.config
+++HelpPageConfig.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\app_start\helppageconfig.cs
+++HelpController.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\controllers\helpcontroller.cs
+++CollectionModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\collectionmodeldescription.cs
+++ComplexTypeModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\complextypemodeldescription.cs
+++DictionaryModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\dictionarymodeldescription.cs
+++EnumTypeModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\enumtypemodeldescription.cs
+++EnumValueDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\enumvaluedescription.cs
+++IModelDocumentationProvider.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\imodeldocumentationprovider.cs
+++KeyValuePairModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\keyvaluepairmodeldescription.cs
+++ModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\modeldescription.cs
+++ModelDescriptionGenerator.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\modeldescriptiongenerator.cs
+++ModelNameAttribute.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\modelnameattribute.cs
+++ModelNameHelper.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\modelnamehelper.cs
+++ParameterAnnotation.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\parameterannotation.cs
+++ParameterDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\parameterdescription.cs
+++SimpleTypeModelDescription.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\modeldescriptions\simpletypemodeldescription.cs
+++HelpPageApiModel.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\models\helppageapimodel.cs
+++HelpPageSampleGenerator.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\helppagesamplegenerator.cs
+++HelpPageSampleKey.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\helppagesamplekey.cs
+++ImageSample.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\imagesample.cs
+++InvalidSample.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\invalidsample.cs
+++ObjectGenerator.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\objectgenerator.cs
+++SampleDirection.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\sampledirection.cs
+++TextSample.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\samplegeneration\textsample.cs
+++Help
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\
+++Model.edmx
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.edmx
+++DisplayTemplates
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\
+++Api.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\api.cshtml
+++ResourceModel.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\resourcemodel.cshtml
+++Model.Context.tt
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.context.tt
+++Model.Designer.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.designer.cs
+++Model.edmx.diagram
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.edmx.diagram
+++Model.tt
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.tt
+++ApiGroup.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\apigroup.cshtml
+++CollectionModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\collectionmodeldescription.cshtml
+++ComplexTypeModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\complextypemodeldescription.cshtml
+++DictionaryModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\dictionarymodeldescription.cshtml
+++EnumTypeModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\enumtypemodeldescription.cshtml
+++HelpPageApiModel.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\helppageapimodel.cshtml
+++ImageSample.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\imagesample.cshtml
+++InvalidSample.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\invalidsample.cshtml
+++KeyValuePairModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\keyvaluepairmodeldescription.cshtml
+++ModelDescriptionLink.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\modeldescriptionlink.cshtml
+++Parameters.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\parameters.cshtml
+++Samples.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\samples.cshtml
+++SimpleTypeModelDescription.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\simpletypemodeldescription.cshtml
+++TextSample.cshtml
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\areas\helppage\views\help\displaytemplates\textsample.cshtml
+++Model.Context.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.context.cs
+++Detalle_de_transaccion.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\detalle_de_transaccion.cs
+++inventario.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\inventario.cs
+++Model.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\model.cs
+++producto.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\producto.cs
+++sucursal.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\sucursal.cs
+++tipo_sucursal.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\tipo_sucursal.cs
+++transaccion.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\transaccion.cs
+++usuario.cs
+i:{ca02a629-d8d7-436b-a806-db64edc58292}:r:\agus\facultad\sap 5to\tecnologia\1er parcial\1er_parcial_sistema_logistica\back\generalapi\api template\models\parcial\usuario.cs

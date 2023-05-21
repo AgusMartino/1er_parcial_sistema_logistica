@@ -52,19 +52,6 @@ namespace GeneralApi.Utils.Managers
             }
             ;
         }
-        /*
-        public IEnumerable<ReporteOperaciones> GetOperacionesConMasTresDia(DateTime dateTime)
-        {
-
-            IEnumerable<ReporteOperaciones> operaciones = new List<ReporteOperaciones>();
-            using (var db = new parcial_sapEntities())
-            {
-                var detalle = db.transaccion.Where(x => x.Fecha_de_transaccion == dateTime
-                                                   & db.Detalle_de_transaccion.Where(y => ))
-
-
-            }
-        }*/
         public IEnumerable<ReporteOperaciones> GetOperacionesFiltroFecha(int idDestino, DateTime inicio, DateTime final)
         {
             IEnumerable<ReporteOperaciones> operaciones = new List<ReporteOperaciones>();
